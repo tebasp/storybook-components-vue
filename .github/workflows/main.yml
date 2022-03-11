@@ -27,8 +27,8 @@ jobs:
         with:
           node-version: 14.17.0
 
-      # - name: Install Dependencies
-        # run: yarn install
+      - name: Install Dependencies
+        run: yarn install
 
       - name: Build App
         run: yarn dist
