@@ -4,7 +4,7 @@
   "author": "Esteban Palomeque",
   "private": false,
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/ev.min.js",
   "homepage": "https://github.com/tebasp/storybook-components-vue",
   "sideEffects": false,
   "repository": {
