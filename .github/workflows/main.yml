@@ -27,6 +27,9 @@ jobs:
         with:
           node-version: 14.17.0
 
+      - name: Set up yarn
+        run: yarn config set registry https://registry.npmjs.org &&
+
       - name: Install Dependencies
         run: yarn install
 
